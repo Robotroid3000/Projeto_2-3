@@ -1,0 +1,20 @@
+#ifndef PONTO_H
+#define PONTO_H
+
+
+class Ponto
+{
+private:    
+   float x;
+   float y;
+public:
+    Ponto(float mx = 0,float my = 0);
+    ~Ponto();
+    Ponto(Ponto& copia);
+    void setX(float mx);
+    void setY(float my);
+    void setXY(float mx, float my);
+    float
+};
+
+#endif // PONTO_H
