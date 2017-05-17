@@ -10,15 +10,16 @@
 
 using namespace std;
 
-int main(){
+int main(int argc, char *argv[]){
 
+    FiguraGeometrica *f;
     Screen *t;
 
     ifstream input;
     string codigo;
     string file = "entrada.txt";
 
-    int nlinhas, ncolunas;
+    int nlinhas, ncolunas, largura, altura;
     char brush;
 
     input.open(file);
@@ -39,7 +40,7 @@ int main(){
             }else if(codigo == "brush"){
                 sstream >> brush;
 
-                if(!ss.good()){
+                if(!sstream.good()){
                     brush = ' ';
                 }
                 t->setBrush(brush);
@@ -58,16 +59,16 @@ int main(){
 
 
 
-    /*
-    cout << "Hello World!" << endl;
+
+
     Screen s = Screen(20, 20);
     s.setBrush('*');
-    Retangulo r = Retangulo(1, 1, 16, 8);
-    r.draw(s);
+    //Retangulo r = Retangulo(1, 1, 16, 8);
+    //r.draw(s);
     //Reta r = Reta(3.0,1.0,3.0,18.0);
     //r.draw(s);
-    //Circulo c = Circulo(10, 10,8 ,false);
-    //c.draw(s);
+    Circulo c = Circulo(10, 10,8 ,false);
+    c.draw(s);
     vector< vector<char> > matriz = s.getMat();
     for(int j=0; j< 20; j++){
         for(int i=0; i< 20; i++){
@@ -75,6 +76,6 @@ int main(){
         }
         cout << endl;
     }
-        */
+
     return 0;
 }

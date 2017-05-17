@@ -7,9 +7,9 @@ using namespace std;
 Screen::Screen(){
 }
 
-Screen::Screen(int _nlin, int _ncol){
-    nlin = _nlin;
-    ncol = _ncol;
+Screen::Screen(int nl, int nc){
+    nlin = nl;
+    ncol = nc;
     mat.resize(nlin);
     for(int i=0;i<nlin;i++)
     {

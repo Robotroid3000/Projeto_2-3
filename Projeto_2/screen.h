@@ -1,8 +1,7 @@
 #ifndef SCREEN_H
 #define SCREEN_H
 #include <vector>
-
-
+#include <iostream>
 using namespace std;
 
 class Screen{
