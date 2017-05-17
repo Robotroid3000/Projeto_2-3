@@ -4,12 +4,6 @@
 #include "reta.h"
 #include "retangulo.h"
 #include "circulo.h"
-#include <iostream>
-#include "screen.h"
-#include "figurageometrica.h"
-#include "reta.h"
-#include "retangulo.h"
-#include "circulo.h"
 #include <fstream>
 #include <string>
 #include <sstream>
