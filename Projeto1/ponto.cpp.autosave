@@ -1,6 +1,0 @@
-#include "Ponto.h"
-
-ponto::ponto(float mx, float my)
-{
-
-}
