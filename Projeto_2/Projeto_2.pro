@@ -16,3 +16,7 @@ HEADERS += \
     reta.h \
     retangulo.h \
     circulo.h
+
+DISTFILES += \
+    entrada.txt \
+    saida.txt
