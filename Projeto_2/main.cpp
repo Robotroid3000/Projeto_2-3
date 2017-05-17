@@ -25,8 +25,8 @@ int main(int argc, char *argv[]){
     ifstream input;
     ofstream output;
     string codigo;
-    string file = "C:/Users/Willian/Documents/Documentos Willian/Trabalhos/UFRN/2017.1/Programação Avançada/Meus projetos/Projeto_2/entrada.txt";
-    string ofile = "C:/Users/Willian/Documents/Documentos Willian/Trabalhos/UFRN/2017.1/Programação Avançada/Meus projetos/Projeto_2/saida.txt";
+    string file = "entrada.txt";
+    string ofile = "saida.txt";
 
     int nlinhas, ncolunas, largura, altura, x0, y0, x1, y1, raio, fillMode;
     char brush;
